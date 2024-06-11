@@ -582,6 +582,10 @@ html,body,main{
 .social-icon{
     display: flex;
     gap: .3rem;
+    
+}
+.social-icon a{
+    color: #fff;
 }
 .social-icon div{
     height: 2rem;
