@@ -1,0 +1,164 @@
+@media screen and (max-width: 1200px) {
+    /* Hero Section */
+    .hero-content{
+        padding: 1% !important;
+    }
+    .hero-title{
+        font-family: "Nunito",cursive;
+        font-size: 60px;
+        font-weight: 900;
+    }
+    .hero-img{
+        height: 450px;
+    }
+
+}
+@media screen and (max-width: 997px) {
+    /* Hero Section */
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    .hero-content{
+        display: flex;
+        align-self: center;
+        width: 100% !important;
+    }
+    .hero-title{
+        font-size: 7vw;
+        text-align: center;
+    }
+    .para{
+        text-align: center;
+    }
+    .button{
+        display: flex;
+        align-self: center;
+    }
+    .btn{
+        font-size: 3vw !important;
+    }
+    .hero-image{
+        width: 100% !important;
+        margin-bottom: 12vw;
+    }
+    .hero-img{
+        height: 65vw;
+    }
+    #home{
+        height: auto;   
+    }
+    .fa,.container-fluid>a{
+        font-size: 7vw;
+    }
+    .hero-content{
+        margin-top: 2rem !important;
+    }
+
+    /* Services Section */
+    .service-item{
+        flex: 1 1 45%;
+    }
+
+    /* About Section */
+    .img{
+        width: 32vw;
+    }
+    .about-imgs .img-1 img{
+        width: 32vw;
+    }
+    .about-imgs .img-2 img{
+        width: 22vw;
+    }
+    .about-content {
+        width: 70vw !important;
+        
+    }
+    .about-content h4{
+        font-size: 5vw;
+    }
+    .about-content h2{
+        font-size: 5vw;
+    }
+    /* Food Section */
+    .food-item{
+       width: 100vw !important;
+    }
+    .row{
+        display: flex;
+        gap: .5vw !important;
+    }
+    /* Reservation Section*/
+    .resv-img{
+        width: 100% !important;
+    }
+    .rev-content{
+        width: 100% !important;
+        height: auto !important;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /* Team Member Section */
+    .team-box{
+        flex-direction: column;
+    }
+    .box-img{
+        height: 25vw;
+        width: 25vw;
+    }
+    /* Footer Section */
+    .footer{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .footer-box{
+        gap: 2rem;
+        justify-content: center;
+    }
+    .footer-box .box{
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 570px) {
+        
+    /* Services Section */
+    .service-item{
+        flex: 1 1 100%;
+    }
+    /* Reservation Section*/
+    .input-div{
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .ipt{
+        width: 100%;
+    }
+    .rev-content{
+        height: auto !important;
+    }
+    /* Team Member Section */
+    .team{
+        flex-direction: column;
+    }
+    .box-img{
+        height: 50vw;
+        width: 50vw;
+    }
+    /* Footer Section */
+    .footer-box{
+        flex-direction: column;
+        align-self: center;
+    }
+    .footer-box .box{
+        width: 70vw;
+    }
+    .last-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}
